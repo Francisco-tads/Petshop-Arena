@@ -88,6 +88,64 @@ const BanhoTosa = () => {
             </div>
           </div>
         </div>
+
+        {/* Additional Highlight Section */}
+        <div className="mt-20 grid lg:grid-cols-2 gap-12 items-center">
+          {/* Content */}
+          <div>
+            <div className="mb-8">
+              <h3 className="text-3xl font-bold text-gray-800 mb-4">
+                Cuidado Especial para Gatos
+              </h3>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Nossos felinos merecem atenção especial! Oferecemos serviços 
+                personalizados para gatos, com técnicas específicas e ambiente 
+                tranquilo para que seu bichano se sinta seguro e confortável. 🐱
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <div className="flex items-center p-4 rounded-xl" style={{ background: 'linear-gradient(to right, #FFF5F0, #FFEDE0)' }}>
+                <div className="w-3 h-3 rounded-full mr-4" style={{ backgroundColor: '#FFA552' }}></div>
+                <span className="text-gray-700 font-medium">Banho anti-stress para felinos</span>
+              </div>
+              <div className="flex items-center p-4 rounded-xl" style={{ background: 'linear-gradient(to right, #FFF5F0, #FFEDE0)' }}>
+                <div className="w-3 h-3 rounded-full mr-4" style={{ backgroundColor: '#FFA552' }}></div>
+                <span className="text-gray-700 font-medium">Tosa higiênica especializada</span>
+              </div>
+              <div className="flex items-center p-4 rounded-xl" style={{ background: 'linear-gradient(to right, #FFF5F0, #FFEDE0)' }}>
+                <div className="w-3 h-3 rounded-full mr-4" style={{ backgroundColor: '#FFA552' }}></div>
+                <span className="text-gray-700 font-medium">Ambiente calmo e acolhedor</span>
+              </div>
+              <div className="flex items-center p-4 rounded-xl" style={{ background: 'linear-gradient(to right, #FFF5F0, #FFEDE0)' }}>
+                <div className="w-3 h-3 rounded-full mr-4" style={{ backgroundColor: '#FFA552' }}></div>
+                <span className="text-gray-700 font-medium">Profissionais experientes com felinos</span>
+              </div>
+            </div>
+
+            <div className="mt-8 text-white p-6 rounded-2xl" style={{ background: 'linear-gradient(to right, #FFA552, #FF8C42)' }}>
+              <h4 className="text-xl font-semibold mb-2">🐾 Dica Especial</h4>
+              <p className="text-orange-100">
+                Gatos precisam de cuidados específicos! Nossa equipe conhece o comportamento 
+                felino e utiliza técnicas que respeitam a natureza do seu bichano.
+              </p>
+            </div>
+          </div>
+
+          {/* Image */}
+          <div className="relative order-first lg:order-last">
+            <div className="rounded-3xl overflow-hidden shadow-2xl">
+              <img
+                src="/assets/destaque-especial.jpg"
+                alt="Cuidado especial para gatos no Petshop Lilly"
+                className="w-full h-[500px] object-cover"
+              />
+            </div>
+            <div className="absolute -top-6 -left-6 bg-white p-4 rounded-full shadow-lg">
+              <Heart className="w-8 h-8" style={{ color: '#FFA552' }} />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
