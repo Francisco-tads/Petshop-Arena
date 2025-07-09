@@ -136,7 +136,7 @@ const BanhoTosa = () => {
           <div className="relative order-first lg:order-last">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/assets/destaque-especial.jpg"
+                src="/assets/gato-especial.jpg"
                 alt="Cuidado especial para gatos no Petshop Lilly"
                 className="w-full h-[500px] object-cover"
               />
