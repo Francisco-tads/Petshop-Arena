@@ -86,7 +86,7 @@ const Veterinario = () => {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/src/assets/banho2.jpg"
+                src="/assets/banho2.jpg"
                 alt="Atendimento Veterinário no Petshop Lilly"
                 className="w-full h-[500px] object-cover"
               />

@@ -8,21 +8,21 @@ const Testimonials = () => {
       pet: 'Luna (Golden Retriever)',
       text: 'A Luna adora vir aqui! O cuidado e carinho da equipe é incrível. Sempre saímos de lá com ela feliz e cheirosa!',
       rating: 5,
-      image: '/src/assets/destaque1.jpg'
+      image: '/assets/destaque1.jpg'
     },
     {
       name: 'João Santos',
       pet: 'Max (Labrador)',
       text: 'Profissionais excelentes! O Max ficou lindíssimo depois da tosa e o atendimento veterinário é de primeira qualidade.',
       rating: 5,
-      image: '/src/assets/banho1.jpeg'
+      image: '/assets/banho1.jpeg'
     },
     {
       name: 'Ana Costa',
       pet: 'Lilly (Poodle)',
       text: 'Recomendo de olhos fechados! A Bella sempre fica relaxada aqui. É visível o amor que eles têm pelos animais.',
       rating: 5,
-      image: '/src/assets/banho2.jpg'
+      image: '/assets/banho2.jpg'
     }
   ];
 

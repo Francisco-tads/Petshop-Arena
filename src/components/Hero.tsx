@@ -59,7 +59,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/src/assets/adestrar2.jpg"
+                src="/assets/adestrar2.jpg"
                 alt="Pet feliz no Petshop Lilly"
                 className="w-full h-[500px] object-cover"
               />

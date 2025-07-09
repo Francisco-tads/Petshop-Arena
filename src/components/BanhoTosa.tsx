@@ -33,7 +33,7 @@ const BanhoTosa = () => {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/src/assets/banho1.jpeg"
+                src="/assets/banho1.jpeg"
                 alt="Banho e Tosa no Petshop Lilly"
                 className="w-full h-[500px] object-cover"
               />
