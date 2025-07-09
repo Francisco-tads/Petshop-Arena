@@ -61,18 +61,22 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <button 
+                onClick={() => window.open('https://instagram.com/petshoplilly', '_blank')}
                 className="p-3 rounded-full transition-all transform hover:scale-110"
                 style={{ background: 'linear-gradient(to right, #FFA552, #FF8C42)' }}
                 onMouseEnter={(e) => e.target.style.background = 'linear-gradient(to right, #FF8C42, #FF7A32)'}
                 onMouseLeave={(e) => e.target.style.background = 'linear-gradient(to right, #FFA552, #FF8C42)'}
+                title="Siga-nos no Instagram"
               >
                 <Instagram className="w-6 h-6" />
               </button>
               <button 
+                onClick={() => window.open('https://facebook.com/petshoplilly', '_blank')}
                 className="p-3 rounded-full transition-all transform hover:scale-110"
-                style={{ backgroundColor: '#FFA552' }}
-                onMouseEnter={(e) => e.target.style.backgroundColor = '#FF8C42'}
-                onMouseLeave={(e) => e.target.style.backgroundColor = '#FFA552'}
+                style={{ backgroundColor: '#1877F2' }}
+                onMouseEnter={(e) => e.target.style.backgroundColor = '#166FE5'}
+                onMouseLeave={(e) => e.target.style.backgroundColor = '#1877F2'}
+                title="Curta nossa página no Facebook"
               >
                 <Facebook className="w-6 h-6" />
               </button>
@@ -82,9 +86,21 @@ const Footer = () => {
                 style={{ backgroundColor: '#25D366' }}
                 onMouseEnter={(e) => e.target.style.backgroundColor = '#128C7E'}
                 onMouseLeave={(e) => e.target.style.backgroundColor = '#25D366'}
+                title="Fale conosco no WhatsApp"
               >
                 <MessageCircle className="w-6 h-6" />
               </button>
+            </div>
+            
+            <div className="mt-6 p-4 bg-gray-700 rounded-lg">
+              <p className="text-sm text-gray-300 mb-2">
+                📱 <strong>Nos acompanhe:</strong>
+              </p>
+              <div className="text-sm text-gray-400 space-y-1">
+                <p>• Fotos dos pets atendidos</p>
+                <p>• Dicas de cuidados</p>
+                <p>• Promoções especiais</p>
+              </div>
             </div>
           </div>
         </div>
